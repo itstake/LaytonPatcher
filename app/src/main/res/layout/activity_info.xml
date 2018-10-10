@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="me.itstake.laytonpatcher.app.InfoActivity">
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#795548"
+            android:theme="@style/ActionBarTheme" />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="511dp"
+            android:id="@+id/scrollView2"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/scrollView2">
+
+            <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/imageView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:src="@drawable/enigma_logo"
+                    android:contentDescription="@string/logo_description"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/patch_and_patcher_by"
+                    android:id="@+id/textView"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/opensource_license"
+                    android:id="@+id/textView2"
+                    android:gravity="fill_horizontal|center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="340dp"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/osl"
+                    android:id="@+id/textView3"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="380dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

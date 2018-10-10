@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">레이튼 패처</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_info">정보</string>
+    <string name="title_activity_info">정보</string>
+    <string name="osl">android–rom–patcher, xdelta3 rom patcher\nhttps://github.com/xperia64/android–rom-patcher\nCopyright © 2016 xperia64\n\nmaterial-dialogs, material design dialogs\nhttps://github.com/afollestad/material-dialogs\nThe MIT License (MIT)\nCopyright © 2014–2016 Aidan Michael Follestad</string>
+    <string name="patch_ltt_now">최후의 시간여행</string>
+    <string name="ltt_patch_description">북미판 최후의 시간여행 nds 파일이 필요합니다.\nv1.3</string>
+    <string name="patch_ls_now">마신의 피리</string>
+    <string name="ls_patch_description"> 북미판 마신의 피리 nds 파일이 필요합니다.\nv1.0</string>
+    <string name="go_blog">블로그 가기</string>
+    <string name="go_blog_description">블로그로 이동합니다.</string>
+    <string name="title_activity_blog">블로그</string>
+    <string name="patch">패치!</string>
+    <string name="patch_completed">패치 완료!</string>
+    <string name="patch_completed_description">저장된 경로:</string>
+    <string name="ok">확인</string>
+    <string name="xdelta3NegativeSeventeenThousandSevenHundredTen">패치 오류</string>
+    <string name="xdelta3NegativeSeventeenThousandSevenHundredEleven">설정 오류</string>
+    <string name="xdelta3NegativeSeventeenThousandSevenHundredTwelve">읽기/쓰기 오류</string>
+    <string name="xdelta3Default">알 수 없는 오류:</string>
+    <string name="patch_error">패치 실패!</string>
+    <string name="incorrect_rom">올바르지 않은 롬 파일입니다!</string>
+    <string name="wait_patch">패치 진행중...</string>
+    <string name="wait_patch_description">패치를 진행중입니다...\n잠시만 기다려 주세요...</string>
+    <string name="patch_result">패치 결과</string>
+    <string name="patch_and_patcher_by">Korean Patched by Team Enigma\nLaytonPatcher Made by ITSTAKE(bexco2010@gmail.com)</string>
+    <string name="opensource_license">오픈소스 라이선스</string>
+    <string name="logo_description">Team Enigma</string>
+    <string name="info">정보</string>
+    <string name="info_desciption">이 앱의 정보를 봅니다.</string>
+    <string name="patchnow">패치하기</string>
+    <string name="bloginfoheader">블로그/정보</string>
+</resources>
